@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Open Mesh Hardware</title>
+    <meta
+            name="description"
+            content="A community-maintained directory of open hardware projects for Meshtastic and MeshCore."
+    />
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+<header>
+    <div class="container nav">
+        <a href="#" class="clean brand" aria-label="Open Mesh Hardware Directory home">
+            <div class="brand-mark">
+                <span>//\</span>
+            </div>
+            <span>Open Mesh Hardware</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a class="clean" href="#projects">Projects</a>
+            <a class="clean" href="#criteria">Criteria</a>
+            <a class="clean" href="#about">About</a>
+            <a class="clean" href="#submit">Submit Hardware</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1>Open hardware for off-grid mesh networks.</h1>
+
+            <p>
+                A curated directory of radios, enclosures, accessories, and related open hardware
+                projects built around the Meshtastic and MeshCore communities.
+            </p>
+
+            <div class="hero-actions">
+                <a class="clean button primary" href="#projects">Browse Projects</a>
+                <a class="clean button" href="#submit">Add Your Hardware</a>
+            </div>
+
+            <div class="stats" aria-label="Directory statistics">
+                <div class="stat">
+                    <strong id="radio-count">--</strong>
+                    <span>Radios listed</span>
+                </div>
+
+                <div class="stat">
+                    <strong id="case-count">--</strong>
+                    <span>Enclosures listed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Hardware directory</h2>
+                    <p>
+                        Search by project name, category, chipset, compatibility, or feature.
+                    </p>
+                </div>
+            </div>
+
+            <div class="toolbar">
+                <input
+                        id="searchInput"
+                        class="search"
+                        type="search"
+                        placeholder="Search hardware, boards, radios, GPS, solar, enclosure..."
+                        aria-label="Search hardware projects"
+                />
+
+                <div class="filters" aria-label="Project filters">
+                    <button class="filter active" type="button" data-filter="all">All</button>
+                    <button class="filter" type="button" data-filter="radio">Radios</button>
+                    <button class="filter" type="button" data-filter="enclosure">Enclosures</button>
+                    <button class="filter" type="button" data-filter="power">chipset</button>
+                    <button class="filter" type="button" data-filter="accessory">Accessories</button>
+                </div>
+            </div>
+
+            <div id="projectGrid" class="grid"></div>
+
+            <div id="emptyState" class="empty">
+                No projects match your current search or filter.
+            </div>
+        </div>
+    </section>
+
+    <section id="criteria">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Suggested listing criteria</h2>
+                </div>
+            </div>
+
+            <div class="info-grid">
+                <article class="info-box">
+                    <h3>Open design files</h3>
+                    <p>
+                        Prefer projects with published schematics, PCB layouts, CAD models, firmware, or build
+                        instructions, but closed source is acceptable.
+                    </p>
+                </article>
+
+                <article class="info-box">
+                    <h3>Mesh compatibility</h3>
+                    <p>
+                        Clearly indicate whether the hardware targets Meshtastic, MeshCore, both, or general LoRa
+                        experimentation.
+                    </p>
+                </article>
+
+                <article class="info-box">
+                    <h3>Build status</h3>
+                    <p>
+                        Label projects as production, beta, prototype, archived, or experimental so builders know what
+                        to expect.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="submit">
+        <div class="container">
+            <div class="submit">
+                <div>
+                    <h2>Have a project to add?</h2>
+                    <p>
+                        Submit hardware made for the mesh community: radios, nodes, base stations, solar kits,
+                        weatherproof cases, antennas, sensor boards, trackers, or companion tools.
+                    </p>
+
+                    <div class="hero-actions submit-actions">
+                        <a class="button primary" href="mailto:bengineeringelm@gmail.com">Email a Submission</a>
+                        <a class="button" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            Open GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="submit-card">
+                    <ul>
+                        <li>Project name</li>
+                        <li>Short description</li>
+                        <li>Compatibility: Meshtastic, MeshCore, or both</li>
+                        <li>Repository or documentation link</li>
+                        <li>License information</li>
+                        <li>Photos, renders, or build guide</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container footer-inner">
+        <span>
+            Open Mesh Hardware Directory
+        </span>
+
+        <span>
+            Built for the <a href="https://meshtastic.org/">Meshtastic</a> and <a
+                href="https://meshcore.io/">MeshCore</a> hardware communities.
+        </span>
+    </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

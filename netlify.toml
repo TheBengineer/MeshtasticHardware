@@ -1,0 +1,6 @@
+[build]
+    # The directory containing your static HTML files (e.g., "public", "dist", or ".")
+    publish = "."
+
+    # No build command is needed for plain HTML
+    command = ""

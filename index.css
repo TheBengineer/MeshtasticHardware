@@ -308,9 +308,9 @@ section {
     white-space: nowrap;
 }
 
-.category.enclosure {
-    color: #f8fafc;
-    background: #64748b;
+.category.case {
+    background: #f8fafc;
+    color: #64748b;
 }
 
 .category.device {

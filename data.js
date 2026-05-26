@@ -124,5 +124,47 @@ const projects = [
             documentation: "https://github.com/KokoSoft/BirbMesh-One",
             purchase: "https://www.etsy.com/listing/1873027341/nrf-txt-most-advanced-stand-alone"
         }
+    },
+    {
+        name: "Heltec V3 Case",
+        category: "case",
+        icon: "🧳",
+        status: "released",
+        description: "The original case design that started it all",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Case", "Heltec"],
+        links: {
+            repository: "https://www.printables.com/model/741974-h1-case-for-heltec-v3-running-meshtastic",
+            documentation: "https://www.printables.com/model/741974-h1-case-for-heltec-v3-running-meshtastic",
+            purchase: "https://www.printables.com/model/741974-h1-case-for-heltec-v3-running-meshtastic"
+        }
+    },
+    {
+        name: "H1 Big Case",
+        category: "case",
+        icon: "🧳",
+        status: "released",
+        description: "Heltec compatible case for larger batteries",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Case", "Heltec"],
+        links: {
+            repository: "https://www.printables.com/model/976200-h1-big-case-for-heltec-v3-running-meshtastic",
+            documentation: "https://www.printables.com/model/976200-h1-big-case-for-heltec-v3-running-meshtastic",
+            purchase: "https://www.printables.com/model/976200-h1-big-case-for-heltec-v3-running-meshtastic"
+        }
+    },
+    {
+        name: "Heltec Pager",
+        category: "case",
+        icon: "🧳",
+        status: "released",
+        description: "Pager style case for Heltec compatible nodes",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Case", "Heltec"],
+        links: {
+            repository: "https://www.printables.com/model/936466-pager-style-holster-for-the-muziworks-h1-heltec-v3",
+            documentation: "https://www.printables.com/model/936466-pager-style-holster-for-the-muziworks-h1-heltec-v3",
+            purchase: "https://www.printables.com/model/936466-pager-style-holster-for-the-muziworks-h1-heltec-v3"
+        }
     }
 ];

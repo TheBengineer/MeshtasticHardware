@@ -3,7 +3,9 @@ const projectGrid = document.querySelector("#projectGrid");
 const searchInput = document.querySelector("#searchInput");
 const filterButtons = document.querySelectorAll(".filter");
 const emptyState = document.querySelector("#emptyState");
-const projectCount = document.querySelector("#projectCount");
+const radioCount = document.querySelector("#radio-count");
+const caseCount = document.querySelector("#case-count");
+const deviceCount = document.querySelector("#device-count");
 
 
 let activeFilter = "all";
@@ -80,7 +82,9 @@ function renderProjects() {
     }).join("");
 
     emptyState.style.display = filteredProjects.length ? "none" : "block";
-    projectCount.textContent = projects.length;
+    radioCount.textContent = projects.filter((project) => project.category === "radio").length.toString();
+    caseCount.textContent = projects.filter((project) => project.category === "case").length.toString();
+    deviceCount.textContent = projects.filter((project) => project.category === "device").length.toString();
     console.log(projects);
 }
 

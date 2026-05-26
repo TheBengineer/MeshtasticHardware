@@ -30,7 +30,7 @@ const projects = [
     {
         name: "MASN",
         category: "board",
-        icon: "☀️🔋",
+        icon: "☀️",
         status: "production",
         description: "A Simple and Open-Source Solar Node for Meshtastic",
         compatibility: ["Meshtastic", "MeshCore"],

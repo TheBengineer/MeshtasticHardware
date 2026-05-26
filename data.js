@@ -156,7 +156,7 @@ const projects = [
     {
         name: "Flushable",
         category: "radio",
-        icon: "W",
+        icon: "F",
         status: "prototype",
         description: "Meshtastic wearable node?",
         compatibility: ["Meshtastic", "MeshCore"],
@@ -170,7 +170,7 @@ const projects = [
     {
         name: "PiTastic",
         category: "radio",
-        icon: "W",
+        icon: "🥧",
         status: "released",
         description: "1W raspberry pi hat",
         compatibility: ["Meshtastic", "MeshCore"],

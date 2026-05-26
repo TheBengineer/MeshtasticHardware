@@ -30,7 +30,7 @@ const projects = [
     {
         name: "NRF-TXT",
         category: "device",
-        icon: "",
+        icon: "⌨️",
         status: "production",
         description: "Standalone Meshtastic communicator (Heltec T114 V2)",
         compatibility: ["Meshtastic", "MeshCore"],

@@ -26,5 +26,19 @@ const projects = [
             documentation: "https://mtnme.sh/devices/MeshToad/",
             purchase: "https://www.etsy.com/listing/4336679696/meshtoad-v20-1w-30dbm-a-lora-915mhz"
         }
+    },
+    {
+        name: "NRF-TXT",
+        category: "device",
+        icon: "",
+        status: "production",
+        description: "Standalone Meshtastic communicator (Heltec T114 V2)",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["NRF52", "SX1262","Keyboard",],
+        links: {
+            repository: "https://www.printables.com/model/1083609-nrf-txt-standalone-meshtastic-communicator-heltec",
+            documentation: "https://www.printables.com/model/1083609-nrf-txt-standalone-meshtastic-communicator-heltec",
+            purchase: "https://www.etsy.com/listing/1873027341/nrf-txt-most-advanced-stand-alone"
+        }
     }
 ];

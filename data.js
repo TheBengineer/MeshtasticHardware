@@ -113,7 +113,7 @@ const projects = [
     },
     {
         name: "BirbMesh-One",
-        category: "device",
+        category: "radio",
         icon: "🐦",
         status: "released",
         description: "Compact 1W low power Node",
@@ -123,6 +123,76 @@ const projects = [
             repository: "https://github.com/KokoSoft/BirbMesh-One",
             documentation: "https://github.com/KokoSoft/BirbMesh-One",
             purchase: "https://www.etsy.com/listing/1873027341/nrf-txt-most-advanced-stand-alone"
+        }
+    },
+    {
+        name: "FemtoFox",
+        category: "radio",
+        icon: "🦊",
+        status: "released",
+        description: "Micro Linux based Node with Ethernet",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Linux", "SX1262", "Ethernet", "Luckfox Pico Mini"],
+        links: {
+            repository: "https://github.com/femtofox/femtofox",
+            documentation: "https://github.com/femtofox/femtofox",
+            purchase: "https://www.etsy.com/listing/1861858340/femtofox-pro-alpha-v11-kit-compact-arm"
+        }
+    },
+    {
+        name: "WashTastic",
+        category: "radio",
+        icon: "W",
+        status: "released",
+        description: "1W node based on E22-90030S and promicro nrf52",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Linux", "SX1262", "Ethernet", "Luckfox Pico Mini"],
+        links: {
+            repository: "https://github.com/valzzu/meshtastic-pcbs/tree/main/WashTastic",
+            documentation: "https://github.com/valzzu/meshtastic-pcbs/tree/main/WashTastic",
+            purchase: "https://github.com/valzzu/meshtastic-pcbs/tree/main/WashTastic"
+        }
+    },
+    {
+        name: "Flushable",
+        category: "radio",
+        icon: "W",
+        status: "prototype",
+        description: "Meshtastic wearable node?",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["NRF52", "SX1262", "Wearable"],
+        links: {
+            repository: "https://github.com/valzzu/meshtastic-pcbs/tree/main/Flushable",
+            documentation: "https://github.com/valzzu/meshtastic-pcbs/tree/main/Flushable",
+            purchase: "https://github.com/valzzu/meshtastic-pcbs/tree/main/Flushable"
+        }
+    },
+    {
+        name: "PiTastic",
+        category: "radio",
+        icon: "W",
+        status: "released",
+        description: "1W raspberry pi hat",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nrf52", "SX1262", "1W", "Raspberry Pi", "Hat"],
+        links: {
+            repository: "https://github.com/valzzu/meshtastic-pcbs/tree/main/PiTastic",
+            documentation: "https://github.com/valzzu/meshtastic-pcbs/tree/main/PiTastic",
+            purchase: "https://github.com/valzzu/meshtastic-pcbs/tree/main/PiTastic"
+        }
+    },
+    {
+        name: "FrameTastic",
+        category: "radio",
+        icon: "F",
+        status: "released",
+        description: "FrameWork laptop lora expansion module",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["Framework"],
+        links: {
+            repository: "https://github.com/valzzu/meshtastic-pcbs/tree/main/FrameTastic",
+            documentation: "https://github.com/valzzu/meshtastic-pcbs/tree/main/FrameTastic",
+            purchase: "https://github.com/valzzu/meshtastic-pcbs/tree/main/FrameTastic"
         }
     },
     {

@@ -40,5 +40,19 @@ const projects = [
             documentation: "https://www.printables.com/model/1083609-nrf-txt-standalone-meshtastic-communicator-heltec",
             purchase: "https://www.etsy.com/listing/1873027341/nrf-txt-most-advanced-stand-alone"
         }
+    },
+    {
+        name: "BirbMesh-One",
+        category: "device",
+        icon: "🐦",
+        status: "production",
+        description: "Compact 1W low power Node",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["NRF52", "SX1262"],
+        links: {
+            repository: "https://github.com/KokoSoft/BirbMesh-One",
+            documentation: "https://github.com/KokoSoft/BirbMesh-One",
+            purchase: "https://www.etsy.com/listing/1873027341/nrf-txt-most-advanced-stand-alone"
+        }
     }
 ];

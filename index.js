@@ -3,7 +3,7 @@ const projectGrid = document.querySelector("#projectGrid");
 const searchInput = document.querySelector("#searchInput");
 const filterButtons = document.querySelectorAll(".filter");
 const emptyState = document.querySelector("#emptyState");
-const radioCount = document.querySelector("#radio-count");
+const boardCount = document.querySelector("#board-count");
 const caseCount = document.querySelector("#case-count");
 const deviceCount = document.querySelector("#device-count");
 
@@ -82,7 +82,7 @@ function renderProjects() {
     }).join("");
 
     emptyState.style.display = filteredProjects.length ? "none" : "block";
-    radioCount.textContent = projects.filter((project) => project.category === "radio").length.toString();
+    boardCount.textContent = projects.filter((project) => project.category === "board").length.toString();
     caseCount.textContent = projects.filter((project) => project.category === "case").length.toString();
     deviceCount.textContent = projects.filter((project) => project.category === "device").length.toString();
     console.log(projects);

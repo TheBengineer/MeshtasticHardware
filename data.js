@@ -10,9 +10,10 @@ const projects = [
         links: {
             repository: "https://github.com/gargomoma/fakeTec_pcb",
             documentation: "https://github.com/gargomoma/fakeTec_pcb",
-            purchase: ""
+            purchase: "https://github.com/gargomoma/fakeTec_pcb"
         }
-    },{
+    },
+    {
         name: "xiaoWa",
         category: "board",
         icon: "小瓦",
@@ -23,7 +24,49 @@ const projects = [
         links: {
             repository: "https://github.com/gargomoma/xiaoWa_pcb",
             documentation: "https://github.com/gargomoma/xiaoWa_pcb",
-            purchase: ""
+            purchase: "https://github.com/gargomoma/xiaoWa_pcb"
+        }
+    },
+    {
+        name: "MASN",
+        category: "board",
+        icon: "☀️🔋",
+        status: "production",
+        description: "A Simple and Open-Source Solar Node for Meshtastic",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nRF52", "SX1262", "USB-C"],
+        links: {
+            repository: "https://github.com/danielcharrua/masn-meshtastic-autonomous-solar-node",
+            documentation: "https://github.com/danielcharrua/masn-meshtastic-autonomous-solar-node",
+            purchase: "https://github.com/danielcharrua/masn-meshtastic-autonomous-solar-node"
+        }
+    },
+    {
+        name: "MeshAdventurer",
+        category: "board",
+        icon: "🚙",
+        status: "production",
+        description: "1W node for automotive mounting",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nRF52", "SX1262", "USB-C", "1W"],
+        links: {
+            repository: "https://github.com/chrismyers2000/MeshAdventurer",
+            documentation: "https://github.com/chrismyers2000/MeshAdventurer",
+            purchase: "https://github.com/chrismyers2000/MeshAdventurer"
+        }
+    },
+    {
+        name: "Hydra ",
+        category: "board",
+        icon: "🐉",
+        status: "production",
+        description: "A small 1W node pcb compatible with E22, E22P and E80 ",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nRF52", "SX1262", "USB-C", "1W"],
+        links: {
+            repository: "https://github.com/Hydra-Designs/project-hydra-meshtastic-pcb",
+            documentation: "https://github.com/Hydra-Designs/project-hydra-meshtastic-pcb",
+            purchase: "https://github.com/Hydra-Designs/project-hydra-meshtastic-pcb/blob/main/ordering.md"
         }
     },
     {
@@ -61,7 +104,7 @@ const projects = [
         status: "production",
         description: "Standalone Meshtastic communicator (Heltec T114 V2)",
         compatibility: ["Meshtastic", "MeshCore"],
-        tags: ["NRF52", "SX1262","Keyboard",],
+        tags: ["NRF52", "SX1262", "Keyboard",],
         links: {
             repository: "https://www.printables.com/model/1083609-nrf-txt-standalone-meshtastic-communicator-heltec",
             documentation: "https://www.printables.com/model/1083609-nrf-txt-standalone-meshtastic-communicator-heltec",

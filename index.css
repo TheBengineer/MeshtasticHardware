@@ -291,6 +291,34 @@ section {
     font-size: 1.35rem;
 }
 
+
+.category.radio {
+    background: #74b8e7;
+    color: #05282e;
+}
+
+
+.category {
+    border-radius: 999px;
+    padding: 5px 9px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #05282e;
+    background: #74b8e7;
+    white-space: nowrap;
+}
+
+.category.enclosure {
+    color: #f8fafc;
+    background: #64748b;
+}
+
+.category.device {
+    background: #a238f8; /* Light Blue for Device nodes */
+    color: #1f052e;
+}
+
+
 .status {
     border-radius: 999px;
     padding: 5px 9px;

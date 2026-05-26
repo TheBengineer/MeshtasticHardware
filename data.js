@@ -1,5 +1,32 @@
 const projects = [
     {
+        name: "Faketec",
+        category: "board",
+        icon: "F",
+        status: "production",
+        description: "A low-cost nRF52 device with Heltec form-factor",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nRF52", "SX1262", "USB-C"],
+        links: {
+            repository: "https://github.com/gargomoma/fakeTec_pcb",
+            documentation: "https://github.com/gargomoma/fakeTec_pcb",
+            purchase: ""
+        }
+    },{
+        name: "xiaoWa",
+        category: "board",
+        icon: "小瓦",
+        status: "production",
+        description: "A small 1W node pcb compatible with E22, E22P and E80 ",
+        compatibility: ["Meshtastic", "MeshCore"],
+        tags: ["nRF52", "SX1262", "USB-C", "1W"],
+        links: {
+            repository: "https://github.com/gargomoma/xiaoWa_pcb",
+            documentation: "https://github.com/gargomoma/xiaoWa_pcb",
+            purchase: ""
+        }
+    },
+    {
         name: "MeshTadpole",
         category: "board",
         icon: "🐸",
